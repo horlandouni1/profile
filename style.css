@@ -1,0 +1,75 @@
+body{
+    color: #8ecae6;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #1e6091;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: #8ecae6;
+    font-weight: bold;
+}
+ul{
+    padding: 0;
+}
+li{
+    display: inline;
+}
+p{
+    font-size: 24px;
+}
+.container{
+    margin: 0 auto;
+}
+.card{
+    width: 60%;
+    margin: 0 auto 20px;
+    background-color: #023047;
+    box-shadow: 6px 4px 11px 1px #023047;
+    padding: 10px;
+}
+.card .perfil_image{
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+}
+.button-1{
+    text-decoration: none;
+    padding: 12px 15px;
+    background-color: #fb8500;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button-1:hover{
+    color: white;
+}
+.container_icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.fab{
+    font-size: 40px;
+    transition: transform 1s ease-in;
+    letter-spacing: 30px;
+}
+.fab:hover{
+    color: #ffb703;
+    transform: scale(1.5);
+}
+@media (max-width: 420px) {
+    /* For a screen < 720px, this CSS will be read */
+    .card {
+      width: 80%
+    }
+}
